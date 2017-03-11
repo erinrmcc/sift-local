@@ -1,12 +1,23 @@
 {
   "name": "siftlocal",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erinrmcc/sift-local.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erinrmcc/sift-local/issues"
+  },
+  "homepage": "https://github.com/erinrmcc/sift-local#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }

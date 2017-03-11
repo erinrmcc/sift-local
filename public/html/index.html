@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Join | Sift Local</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+    <div id="background">
+      <table id="divs">
+        <tr v-for='row in rows'>
+          <td v-for='col in cols' height="{{ height }}" width="{{ width }}">
+            <div id=“random-div” name="{{ name }}, {{ craft }}"></div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
